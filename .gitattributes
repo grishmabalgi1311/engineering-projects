@@ -1,0 +1,2 @@
+# Preserve archived development artifacts byte-for-byte, including Windows newlines.
+projects/** -text
