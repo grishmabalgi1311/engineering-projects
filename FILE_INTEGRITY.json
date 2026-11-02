@@ -1,581 +1,581 @@
 [
   {
-    "destination": "projects\\kinetikey\\src\\main.cpp",
+    "destination": "projects/kinetikey/src/main.cpp",
     "sha256": "982e517d3e236b421fcf72360546d241060a03bb017de66717b2527679f1866d",
     "bytes": 14634
   },
   {
-    "destination": "projects\\kinetikey\\platformio.ini",
+    "destination": "projects/kinetikey/platformio.ini",
     "sha256": "4d1197f7eda262383d2963ef585c07f4d24ef7ffe14cf7d685bdb6dbdc1adc8a",
     "bytes": 137
   },
   {
-    "destination": "projects\\ecg-monitor\\src\\main.cpp",
+    "destination": "projects/ecg-monitor/src/main.cpp",
     "sha256": "681bc610ebe797b262804360dca27ba767f2d3ccc2c94b0fb3970ec36b360568",
     "bytes": 3384
   },
   {
-    "destination": "projects\\ecg-monitor\\src\\getHR.S",
+    "destination": "projects/ecg-monitor/src/getHR.S",
     "sha256": "9fa37c3e3f8982eef33b3cecbabcda175490835c6a8dd28b00a6fa8e97b97360",
     "bytes": 3087
   },
   {
-    "destination": "projects\\ecg-monitor\\platformio.ini",
+    "destination": "projects/ecg-monitor/platformio.ini",
     "sha256": "1175216ac241d2170fb9021c6136304c0ecb7d7bb327f2311a6316e330f639cb",
     "bytes": 155
   },
   {
-    "destination": "projects\\robotic-fin-codesign\\src\\controller.py",
+    "destination": "projects/robotic-fin-codesign/src/controller.py",
     "sha256": "5097f3f1c553e4634779abc7f4a43d6d2a2ebd4e2ae6205ea4ed30b3e2ec51a6",
     "bytes": 34827
   },
   {
-    "destination": "projects\\robotic-fin-codesign\\src\\dynamixel_controller.py",
+    "destination": "projects/robotic-fin-codesign/src/dynamixel_controller.py",
     "sha256": "15fb5227aa8af62e735629a9e67047fe7fb5d9122ae6e239626b0085d2f195ff",
     "bytes": 17461
   },
   {
-    "destination": "projects\\robotic-fin-codesign\\src\\dynamixel_address_book.py",
+    "destination": "projects/robotic-fin-codesign/src/dynamixel_address_book.py",
     "sha256": "c852bb88301f5bf098a84e48c92f2bedec3f04363f43ee0b6da7aa93621654ed",
     "bytes": 2180
   },
   {
-    "destination": "projects\\robotic-fin-codesign\\src\\fish_fin_sway.py",
+    "destination": "projects/robotic-fin-codesign/src/fish_fin_sway.py",
     "sha256": "7dc4f85604d8f55bf1db6778fa9ccff4f4af1978d65da78237aefa53cee82d1e",
     "bytes": 14454
   },
   {
-    "destination": "projects\\robotic-fin-codesign\\src\\plot_all_trials.py",
+    "destination": "projects/robotic-fin-codesign/src/plot_all_trials.py",
     "sha256": "b2d89a23fca87f190524feeea888d025e50cfcb903965c1248574ccb078089b7",
     "bytes": 12713
   },
   {
-    "destination": "projects\\robotic-fin-codesign\\src\\plot_trial.py",
+    "destination": "projects/robotic-fin-codesign/src/plot_trial.py",
     "sha256": "67854d912d06e293509a29099d39e00498711d68242c4dacb9f25a032e6f26e3",
     "bytes": 11253
   },
   {
-    "destination": "projects\\robotic-fin-codesign\\firmware\\ForceServo\\ForceServo.ino",
+    "destination": "projects/robotic-fin-codesign/firmware/ForceServo/ForceServo.ino",
     "sha256": "dac0f284238891aa79baf8129f0f02f429825ea9242685eff411fbe0cd7b55a4",
     "bytes": 3611
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\build_model.py",
+    "destination": "projects/soft-tentacle-simulation/source/build_model.py",
     "sha256": "c3f887cb435b0070dc5131e582178fe9502fb61e7ab6dc8e59ff0ee13a5944df",
     "bytes": 5168
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\simulator.py",
+    "destination": "projects/soft-tentacle-simulation/source/simulator.py",
     "sha256": "0f854ca3105f1f15a16fd8cbbda9bd91c1d451836206f557dcc47d47dfe2f824",
     "bytes": 10961
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\water.py",
+    "destination": "projects/soft-tentacle-simulation/source/water.py",
     "sha256": "d074e0d510c562991230f8f367be1edbcee0cb6cfe17a27bdd7e317ab5195549",
     "bytes": 3477
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\run_project2.py",
+    "destination": "projects/soft-tentacle-simulation/source/run_project2.py",
     "sha256": "2a2d21c49912d6740f8a00515ebdf043ba3f9731b67d6caff9d4c1dc4a43a081",
     "bytes": 7865
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\config.json",
+    "destination": "projects/soft-tentacle-simulation/source/config.json",
     "sha256": "88b3038fcbe4ac10ed67d10f8d050999646e6a78d790a75a6ef15d256482d4e5",
     "bytes": 796
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\README.txt",
+    "destination": "projects/soft-tentacle-simulation/source/README.txt",
     "sha256": "9314ef788c108769fc2f311f9d7775d8ba83b06ad4ed4172f69810e990d6f86b",
     "bytes": 697
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\model\\arm_reference.xml",
+    "destination": "projects/soft-tentacle-simulation/source/model/arm_reference.xml",
     "sha256": "5ed41495e95c691dac5d46323c74435f0f2ee09e1e252656b097a52ea3bf7b98",
     "bytes": 13610
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\model\\two_tentacles_ball.xml",
+    "destination": "projects/soft-tentacle-simulation/source/model/two_tentacles_ball.xml",
     "sha256": "6de8b901286a91636a26ba0a2026066afef5df709cab5df34607ddebbd9146f7",
     "bytes": 29554
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg01.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg01.obj",
     "sha256": "41706cb0942fc7fabb55d33ae5c9cc9dfc82e9fb3469be18e64e050c8b798df7",
     "bytes": 28476
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg02.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg02.obj",
     "sha256": "9215939cf78fe95d47cb660618e8c6fb3609f1bca35f8aa439a539bd826702ee",
     "bytes": 27437
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg03.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg03.obj",
     "sha256": "f483cfb7ea06065d8dc0f2024cb5ac9ab74ecddfcfc1128a38405f22a98ce7aa",
     "bytes": 27565
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg04.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg04.obj",
     "sha256": "2fdae7718117da15819f7cab362eb615332ea5264e5b98fc1dc45ce3bb111aec",
     "bytes": 28129
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg05.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg05.obj",
     "sha256": "f556aacbab3ba58d5b7d9711d42cd09bbf8a94351a3f4b5b2d29441935762c70",
     "bytes": 28115
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg06.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg06.obj",
     "sha256": "aa059abc3ebf8f36683f08701c843f4953f0fe91a673f84f20916536991f496b",
     "bytes": 27664
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg07.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg07.obj",
     "sha256": "e2738d192740c327369879d80ea4ef459eb2330b92aecaaf8089373c90a79623",
     "bytes": 27946
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg08.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg08.obj",
     "sha256": "8e614e5ca1f87917eee7ff8d5d4c08ead73c041d4ba374f6424fe15963619475",
     "bytes": 27495
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg09.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg09.obj",
     "sha256": "fdd9177a1c3475b160ab965ea01aa1cc71721bae6327ade2877386ae056df241",
     "bytes": 27030
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg10.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg10.obj",
     "sha256": "2ecb73683d7066efa1d4c42dcc5944729fc5e2ef00014d7414ecb0e980ce018a",
     "bytes": 27178
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg11.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg11.obj",
     "sha256": "0f18a886328adb811ed8033b680c65738838f0a9a10513ce5ffb3d1dcd4f5887",
     "bytes": 27342
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg12.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg12.obj",
     "sha256": "9d48f181beb3bb4e19f98af72ae1330d2d668b374fc563874dec460a1a9b5981",
     "bytes": 27336
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg13.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg13.obj",
     "sha256": "c8fc1b93a7b5934b195e4c9ff8cdc4c1622b6f1c3247f8898e6edb72830fd38c",
     "bytes": 27337
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg14.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg14.obj",
     "sha256": "76e3899cb8d35b6c139c29e9b5a81a4fc976ef685dc36bfed900c315ff944a4d",
     "bytes": 27437
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg15.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg15.obj",
     "sha256": "8426f8994dd97f694a666501da62f2f34323dd0c0ca798064e046d8ba457bc73",
     "bytes": 27436
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg16.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg16.obj",
     "sha256": "d116a485460894cf246aed6330b77e90fcc4b859dfe2475ddd5047a0a392988d",
     "bytes": 27608
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg17.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg17.obj",
     "sha256": "bc7b9ec486883d65c5b983e05695d1ef5bff055a75fdb6ea410dec7ed5390d25",
     "bytes": 27769
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\source\\geometry\\meshes\\seg18.obj",
+    "destination": "projects/soft-tentacle-simulation/source/geometry/meshes/seg18.obj",
     "sha256": "c85e56f453c46b38c9c7ed90a6e08186afb3befca39f61f0868030c41ae4b476",
     "bytes": 54607
   },
   {
-    "destination": "projects\\soft-tentacle-simulation\\media\\simulator-preview.png",
+    "destination": "projects/soft-tentacle-simulation/media/simulator-preview.png",
     "sha256": "94b1ce1852a5a735e8cc4dc580898efa9852a8045323099fc7d9c248971a8bb1",
     "bytes": 175704
   },
   {
-    "destination": "projects\\flexiclimber\\firmware\\flexibot_2.1.c",
+    "destination": "projects/flexiclimber/firmware/flexibot_2.1.c",
     "sha256": "5a1d67099d4328d94a5b5b050a3366f1b0ebde61a4750761a21a25ae08931afd",
     "bytes": 5177
   },
   {
-    "destination": "projects\\flexiclimber\\firmware\\arduino_pivot.ino",
+    "destination": "projects/flexiclimber/firmware/arduino_pivot.ino",
     "sha256": "bda960002e45ea4e8efe94e867830f114fd39f987658ef56c9a822e634b6c762",
     "bytes": 2914
   },
   {
-    "destination": "projects\\flexiclimber\\firmware\\arduino_pivot_bitwise.ino",
+    "destination": "projects/flexiclimber/firmware/arduino_pivot_bitwise.ino",
     "sha256": "f413b8085611008b42b6155340d907516cef7bdb6f783286d4ed129a0493a62f",
     "bytes": 3044
   },
   {
-    "destination": "projects\\gesture-fingers\\vision\\mediapipecode.py",
+    "destination": "projects/gesture-fingers/vision/mediapipecode.py",
     "sha256": "cd23d24c18609cfedc7798ad165671ad8917a69531ceaa46d50f84e8efa55c4c",
     "bytes": 3803
   },
   {
-    "destination": "projects\\gesture-fingers\\firmware\\mechatronicsprojectide\\mechatronicsprojectide.ino",
+    "destination": "projects/gesture-fingers/firmware/mechatronicsprojectide/mechatronicsprojectide.ino",
     "sha256": "c0a52636c631a2d2190b09d96eda3eb8757826fc37d48d7579372622357d56e9",
     "bytes": 690
   },
   {
-    "destination": "projects\\gesture-fingers\\matlab\\dc_motor_pd_encoder.slx",
+    "destination": "projects/gesture-fingers/matlab/dc_motor_pd_encoder.slx",
     "sha256": "9c6f95a5a4db7edcb2c1bb834d2a8784498e9dea238f74cb173393916a83cd94",
     "bytes": 77728
   },
   {
-    "destination": "projects\\gesture-fingers\\matlab\\closedloop.mlx",
+    "destination": "projects/gesture-fingers/matlab/closedloop.mlx",
     "sha256": "ad03f192fe491f2cd65dc67b4acd3edb5d402d8c9228383155ec36a7a862e409",
     "bytes": 103460
   },
   {
-    "destination": "projects\\gesture-fingers\\matlab\\openloop.mlx",
+    "destination": "projects/gesture-fingers/matlab/openloop.mlx",
     "sha256": "50d13999dee4daee86dcd7a0b313e696103650d29da7a20d348d45d543c52b8f",
     "bytes": 130018
   },
   {
-    "destination": "projects\\automated-steering\\source\\data_collection.m",
+    "destination": "projects/automated-steering/source/data_collection.m",
     "sha256": "e8c316bce26e1cfe2e1385fb36bf7c1bfee438f9519a71f2d8428c7cbd95482b",
     "bytes": 1449
   },
   {
-    "destination": "projects\\automated-steering\\source\\obstaclepythonpyfile.py",
+    "destination": "projects/automated-steering/source/obstaclepythonpyfile.py",
     "sha256": "dd7e8d562e7db1e56d99c0f1cfa32e311476401e0744425e9ac72c04beb48ef2",
     "bytes": 1601
   },
   {
-    "destination": "projects\\automated-steering\\source\\matlabtopython.m",
+    "destination": "projects/automated-steering/source/matlabtopython.m",
     "sha256": "c290c204917f5491ced408173cdf92024b75b62804977fab9fa40eaa21b92b24",
     "bytes": 4825
   },
   {
-    "destination": "projects\\automated-steering\\source\\Obstacle_avoidance_bot.slx",
+    "destination": "projects/automated-steering/source/Obstacle_avoidance_bot.slx",
     "sha256": "f25304d775e38e9ff5a4b805197787d711c1024c6cd093787eccb07f6b088d8b",
     "bytes": 86237
   },
   {
-    "destination": "projects\\circuit-breaker-fault-detection\\simulation\\simulated_ACB_fault_data.m",
+    "destination": "projects/circuit-breaker-fault-detection/simulation/simulated_ACB_fault_data.m",
     "sha256": "e0709a561cefbf0edb6f34df6313c25026e3e38757b9ef22c065c6561752c886",
     "bytes": 1792
   },
   {
-    "destination": "projects\\circuit-breaker-fault-detection\\simulation\\ACB_RealTime_Simulation.slx",
+    "destination": "projects/circuit-breaker-fault-detection/simulation/ACB_RealTime_Simulation.slx",
     "sha256": "bb8708da6c2f9c7db2c8257da23464f38a62f4133d3933699d206b20b8631622",
     "bytes": 75987
   },
   {
-    "destination": "projects\\baymax\\display\\animated_eyes.py",
+    "destination": "projects/baymax/display/animated_eyes.py",
     "sha256": "ee38dcb961c18250f6e0d62f275cd678d9cf15eb8eabc13e3e0a1ad60126ca06",
     "bytes": 15283
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\cli.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/cli.py",
     "sha256": "755887d8daf91e24090821ecbd1299c47c20fc03c5cba0ce4639e1b87161b59f",
     "bytes": 4937
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\connected_word_policy.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/connected_word_policy.py",
     "sha256": "b2fd0fed4b8fd05f6a2c34ef2906e24c0de08299795559f09b9a33137705671e",
     "bytes": 1606
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\hybrid_recovery_policy.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/hybrid_recovery_policy.py",
     "sha256": "64a36733fdf31b128e9a094f02d4ed301214b802dfaaa4836eb49b085c4ab1a5",
     "bytes": 1190
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\hybrid_rl_controller.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/hybrid_rl_controller.py",
     "sha256": "51ddad791b160754768a9934a75b39331379ac6506a9e78fd3254edac8584728",
     "bytes": 2154
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\hybrid_rl_learned.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/hybrid_rl_learned.py",
     "sha256": "a4fad72e154cc7ee7d0d66a626b71ad5c5e2e0638a4097610f62b8864696ea93",
     "bytes": 709
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\hybrid_rl_local.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/hybrid_rl_local.py",
     "sha256": "43f385005090072d0d4d5f1b53439b78ab7fe38ac4ed5eea995e895a8ce8222a",
     "bytes": 1565
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\hybrid_rl_local_base.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/hybrid_rl_local_base.py",
     "sha256": "6085ebb2dad944c4720ebe7b50cf33e5987d5c814bfa192524541ef6ac71e5f3",
     "bytes": 11388
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\hybrid_rl_policy.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/hybrid_rl_policy.py",
     "sha256": "c0a25cbcc8d4802896e87e61c046d3ffa1ee45e588ae025e5add70e2702ce2de",
     "bytes": 3861
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\hybrid_rl_reanchor.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/hybrid_rl_reanchor.py",
     "sha256": "e20c00f9a69b846bb6f3264d113bee719a016a82f13991dcdb0e989bcd7320b2",
     "bytes": 1737
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\learned_goal.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/learned_goal.py",
     "sha256": "634ab4366083a0fa4555233a9eaa75a3423fb05ff56361cca4fb85c903f234b5",
     "bytes": 1379
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\learned_matching.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/learned_matching.py",
     "sha256": "e1e5fb9d594333355a35e874ac9047f1893cf5f4b488c2ffbdd79eb6bfc2f196",
     "bytes": 3029
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\learned_motion.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/learned_motion.py",
     "sha256": "68fb40eeb8e64bb1ebca42a14c133fc2c5ce4bedf5e313ea8860b3fe44390307",
     "bytes": 2353
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\my_agent.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/my_agent.py",
     "sha256": "54da686a31fbc42619cc5fd29ab4d15041f612056bb3c13e424ec6689f68f50e",
     "bytes": 2818
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\odometry_recovery_policy.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/odometry_recovery_policy.py",
     "sha256": "c8388b0fc48b47b70439d9041d0681eb59eea6229586c5d9eb44d97b831a9078",
     "bytes": 2654
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\oscillation_recovery.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/oscillation_recovery.py",
     "sha256": "15f241752c28420dae897cf18f3784c2349fa7ff13fc882d9228816c2712add2",
     "bytes": 944
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\planar_odometry.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/planar_odometry.py",
     "sha256": "ce82c25ccf33b5f524712acee59a8650b3bcd15a041c0337fce6e711620c4961",
     "bytes": 1815
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\planar_pnp.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/planar_pnp.py",
     "sha256": "07d07953ec0d53372ff794736666649d54d61cbdd5558681ccf29e7da509223c",
     "bytes": 2452
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\planar_return_agent.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/planar_return_agent.py",
     "sha256": "059d0ade5dfc0cd3fcdcab96673ad08dbbee2eb772d9ac9e557435a1710cc9b4",
     "bytes": 1643
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\planar_return_policy.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/planar_return_policy.py",
     "sha256": "ba038d8b930e3d6da5ca43b8dc0459cd1b0307381dc3d9b53ede0d1d097741db",
     "bytes": 1116
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\planar_return_route.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/planar_return_route.py",
     "sha256": "db6012da0d4fb131bd32964f271fbb95fb9f04c111dcc236b5e55355fec2804e",
     "bytes": 6728
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\pose_agent.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/pose_agent.py",
     "sha256": "771d2b6dc630ddb389112b0eab8c06e7bdff33b7cc35e4d2070b5d1d93f55bba",
     "bytes": 12469
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\position_handoff_policy.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/position_handoff_policy.py",
     "sha256": "29e4efacf30caf519513778c1110fd08e5a391a2d20714600c5acf1fd57c0d1d",
     "bytes": 1753
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\reanchor_local.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/reanchor_local.py",
     "sha256": "856fd6e4d445b6aa078bc9f5a0faf15709f862b554864d12563aa6971b3ac3fe",
     "bytes": 1734
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\route_motion_connections.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/route_motion_connections.py",
     "sha256": "ca4c9b7f5127ae7efe8658ccd7a44eddf00b761a48cf5ca1315ea98adfc04eee",
     "bytes": 1563
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\run_diagnostics.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/run_diagnostics.py",
     "sha256": "8736dc6229b0d0449648b679a918c6ce692a67acefd8df3b826645251d8e62e7",
     "bytes": 7222
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\spatial_map.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/spatial_map.py",
     "sha256": "adda76cef09667679995f3fff522a881b5ae321be54b9a801047c28f9ada3ed4",
     "bytes": 9656
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\teach_agent.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/teach_agent.py",
     "sha256": "76528575a9db6da93fdd89e5f3de7371883c92faa05f2ff217b320238bf6e9be",
     "bytes": 7235
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\tick_stable_local.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/tick_stable_local.py",
     "sha256": "83b40d9006e51d0085652003377a108bfdb79b4cf68e80aea3da52ef92cb4588",
     "bytes": 9715
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\verified_map_policy.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/verified_map_policy.py",
     "sha256": "7ca8aa0b74173f1bab7daa404d1495de6fb0f3e7146fc9ea2481982969d1aa4f",
     "bytes": 3031
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\visible_pose_check.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/visible_pose_check.py",
     "sha256": "05b20945359037a06f1c8dd41f3779b33d909c958daeb2a9396dbb23041eb096",
     "bytes": 2163
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\visible_return_route.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/visible_return_route.py",
     "sha256": "30ee643b47359843052236acbf32e6f71783e3e19a562b7c5846756fad46ba63",
     "bytes": 6870
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\visual_pose.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/visual_pose.py",
     "sha256": "85b3637c5e3783cb396d6e5fce5029ce7c4b72a14a75791905f1d14ec6dc8809",
     "bytes": 6453
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\visual_return_route.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/visual_return_route.py",
     "sha256": "8b88530f8a8366dd50efdfb304893a29eca98053bf2507db9b732b650392f613",
     "bytes": 5951
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\visual_route.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/visual_route.py",
     "sha256": "82bde18521a5d1bbd0e3b0605303b86495860f23a8a3d89ce2f0b918a1e0b36a",
     "bytes": 6079
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\visual_word_candidates.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/visual_word_candidates.py",
     "sha256": "0bd803a266bc820ada1d7857576219776fddd9eadfa36c6c1d60cf32cecaae29",
     "bytes": 1502
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\wall_orientation.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/wall_orientation.py",
     "sha256": "d8eedbb9fd41afe5315277bc69914fd0de74494f07bf40338d8810e7f9b8a15a",
     "bytes": 1471
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\word_route_policy.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/word_route_policy.py",
     "sha256": "efcc5916ce30f19c4341577c869523d4207b2c998eb7b86d9f7b74ec91f5423e",
     "bytes": 1140
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\source\\word_visual_route.py",
+    "destination": "projects/visual-navigation/submitted-agent/source/word_visual_route.py",
     "sha256": "d4d9bcbbc272db1c2a6597c0b2ae253125f45da3af3ac0994a3d08168d4cb7c4",
     "bytes": 6403
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\tools\\discover_image_connections.py",
+    "destination": "projects/visual-navigation/submitted-agent/tools/discover_image_connections.py",
     "sha256": "402301936330e334f4589fd1f19ca5e0013a2dbe491a31228ac12d8099103004",
     "bytes": 6756
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\tools\\export_image_connections.py",
+    "destination": "projects/visual-navigation/submitted-agent/tools/export_image_connections.py",
     "sha256": "8b83a556d66ceb6b24df685572dad774530d19ce37f8e4922ac77f2fce35292d",
     "bytes": 1518
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\tools\\prepare_public_images.py",
+    "destination": "projects/visual-navigation/submitted-agent/tools/prepare_public_images.py",
     "sha256": "3a763ab0e44fca16c1a3077e4a0f3d6fb028d23da7b014b49177b144d51717b7",
     "bytes": 1079
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\tools\\verify_image_connections.py",
+    "destination": "projects/visual-navigation/submitted-agent/tools/verify_image_connections.py",
     "sha256": "a605fdb30801ea55a5ffc2a909aa0756d6c80aff48fad4ca0bcb0458a5f6750e",
     "bytes": 6128
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\MODEL_SETUP.md",
+    "destination": "projects/visual-navigation/submitted-agent/MODEL_SETUP.md",
     "sha256": "1d5261a0b776159e7d2aad62fe7435a9ae600e7aa37cc264424ec3c3763d606a",
     "bytes": 1098
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\README.md",
+    "destination": "projects/visual-navigation/submitted-agent/README.md",
     "sha256": "b97f9fbcb9dbadbea8616949b9a9a0c3224c8fb34a34a750c310a232b67ef1b4",
     "bytes": 4180
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\pyproject.toml",
+    "destination": "projects/visual-navigation/submitted-agent/pyproject.toml",
     "sha256": "e1fb777eda0ba8b797e2d8d768be3622da120684f39b95dae324c7b958b696d9",
     "bytes": 612
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\.env.example",
+    "destination": "projects/visual-navigation/submitted-agent/.env.example",
     "sha256": "4101b60c4d7408d4c3862deae920859827752545b593a2ad173a07762fc4131e",
     "bytes": 71
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\SOURCE_PROVENANCE.json",
+    "destination": "projects/visual-navigation/submitted-agent/SOURCE_PROVENANCE.json",
     "sha256": "45aa994c989a13191ab71cbf24731debba425e3c2aad48ae49ab659258ef83c6",
     "bytes": 4121
   },
   {
-    "destination": "projects\\visual-navigation\\submitted-agent\\TESTED_DEPENDENCIES.json",
+    "destination": "projects/visual-navigation/submitted-agent/TESTED_DEPENDENCIES.json",
     "sha256": "8fd8e7165c7198c7fd325947360ea06657baabc0dea0b75f8336ffa10fe06508",
     "bytes": 337
   },
   {
-    "destination": "projects\\visual-navigation\\evidence\\separate-course-run-718.json",
+    "destination": "projects/visual-navigation/evidence/separate-course-run-718.json",
     "sha256": "862864fb1dcf10e886f8c3ad0a06be29b8ffa564c489970dc49c8607a8004d6f",
     "bytes": 703
   },
   {
-    "destination": "projects\\visual-navigation\\reports\\Engineering_Methods_7of10.pdf",
+    "destination": "projects/visual-navigation/reports/Engineering_Methods_7of10.pdf",
     "sha256": "5827a6e9272c2e3a921b1d482fe3716753c722342d1eec0eb0ae54eb107cabcb",
     "bytes": 1197213
   },
   {
-    "destination": "projects\\ur10e-kinematics\\media\\ur10e_FK_position.gif",
+    "destination": "projects/ur10e-kinematics/media/ur10e_FK_position.gif",
     "sha256": "6c7451585a5e30d6f9820e1c975674da0c72ac1b441e93eb41da22f7801b8e76",
     "bytes": 12702497
   },
   {
-    "destination": "projects\\ur10e-kinematics\\media\\ur10e_FK_velocity.gif",
+    "destination": "projects/ur10e-kinematics/media/ur10e_FK_velocity.gif",
     "sha256": "a540f101b9bdd96ccbe6f8d5db3823e8314abcf1d1f699149b9fcef70fa1eac4",
     "bytes": 12307930
   },
   {
-    "destination": "projects\\ur10e-kinematics\\media\\ur10e_IK_position.gif",
+    "destination": "projects/ur10e-kinematics/media/ur10e_IK_position.gif",
     "sha256": "973ffa507466711207a8c5f0673eb31a2852845a326d5d25a690d127d40c9ea9",
     "bytes": 12105377
   },
   {
-    "destination": "projects\\ur10e-kinematics\\media\\ur10e_IK_velocity.gif",
+    "destination": "projects/ur10e-kinematics/media/ur10e_IK_velocity.gif",
     "sha256": "c8fcabf40aa91c715e23bd48ec3b14180e29785d0f6be33822bade4d3dbf57e8",
     "bytes": 12659132
   },
   {
-    "destination": "projects\\composite-kiteboard\\reports\\Analysis_of_Composite_Kiteboard_Design.pdf",
+    "destination": "projects/composite-kiteboard/reports/Analysis_of_Composite_Kiteboard_Design.pdf",
     "sha256": "16c9e9d3e9eebbcb4921b3b92d340b40ed5deb35e821f097d1dd011d42569db5",
     "bytes": 446148
   },
   {
-    "destination": "projects\\manufacturing-assembly\\reports\\MANUFACTURING_SCIENCE_AND_TECHNOLOGY.pdf",
+    "destination": "projects/manufacturing-assembly/reports/MANUFACTURING_SCIENCE_AND_TECHNOLOGY.pdf",
     "sha256": "8e8d4aad7121006d54af58ce45130e8235274f83d1c9ed8e877bfe3b19e3c595",
     "bytes": 1379096
   },
   {
-    "destination": "projects\\automated-steering\\reports\\Obstacle_Detection_and_Automated_Steering.pdf",
+    "destination": "projects/automated-steering/reports/Obstacle_Detection_and_Automated_Steering.pdf",
     "sha256": "00e9b1bf61c8f6438ded454f895d000da0639c55184112875902bb54bc3868d9",
     "bytes": 8153336
   },
   {
-    "destination": "projects\\gesture-fingers\\reports\\E2_Report_Group01_Single-DOFGestureControlledRoboticFinger.pdf",
+    "destination": "projects/gesture-fingers/reports/E2_Report_Group01_Single-DOFGestureControlledRoboticFinger.pdf",
     "sha256": "40360ad99701da263d349db7a127759334106b2237bc87cad94a2747daabf704",
     "bytes": 12110484
   },
   {
-    "destination": "projects\\vjti-racing\\media\\atv-perspective.webp",
+    "destination": "projects/vjti-racing/media/atv-perspective.webp",
     "sha256": "638f0fabd7672aa90baa81df513271a6ac89e4c3caaeb370e77cc873d663c075",
     "bytes": 53346
   },
   {
-    "destination": "projects\\vjti-racing\\media\\atv-side.webp",
+    "destination": "projects/vjti-racing/media/atv-side.webp",
     "sha256": "64e6b42a0ce09e3dbcd4cea5332a8bccc58c5681d50fdaae71ea741c6d152396",
     "bytes": 28756
   },
   {
-    "destination": "projects\\vjti-racing\\media\\atv-top.webp",
+    "destination": "projects/vjti-racing/media/atv-top.webp",
     "sha256": "fcbf0f12c4861ab3435dc0ba6f50e85bb42ace0302f5d5376a70f8f00b0ecf78",
     "bytes": 50850
   },
   {
-    "destination": "projects\\vjti-racing\\media\\atv-frame.webp",
+    "destination": "projects/vjti-racing/media/atv-frame.webp",
     "sha256": "c5cac1fcf7c8ec9f53dbd08b9743306f643e5cc7d956d47369b763562a5e6041",
     "bytes": 64950
   }

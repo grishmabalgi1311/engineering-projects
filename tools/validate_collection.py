@@ -5,7 +5,7 @@ count=0
 for p in root.glob('projects/**/*.py'):
     ast.parse(p.read_text(encoding='utf-8-sig'),filename=str(p));count+=1
 for record in json.loads((root/'FILE_INTEGRITY.json').read_text()):
-    p=root/record['destination']
+    p=root/record['destination'].replace('\\','/')
     assert p.is_file(),f'Missing source artifact: {p}'
     assert hashlib.sha256(p.read_bytes()).hexdigest()==record['sha256'],f'Archived file changed: {p}'
 comparison=json.loads((root/'projects/visual-navigation/evidence/midterm-comparison.json').read_text())
