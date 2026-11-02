@@ -35,3 +35,7 @@ Team/course projects include inherited frameworks and collaborators. File inclus
 Future integration could map tracked gestures to motor commands and evaluate closed-loop behaviour where feedback is available.
 
 [Portfolio case study](https://grishmabalgi1311.github.io/grishma-portfolio/#project=gesture-fingers) · [Grishma Balgi](https://github.com/grishmabalgi1311)
+
+## Original demonstration media
+
+[Watch the silent original project excerpt](https://grishmabalgi1311.github.io/grishma-portfolio/assets/videos/finger-demo.mp4). The portfolio case study explains the historical stage and scope; video inclusion does not establish a new validation result or completed integration.
