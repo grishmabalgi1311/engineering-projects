@@ -22,6 +22,12 @@ Mechanisms, embedded systems, robot simulation, and sensor-based intelligence. O
 | [VJTI Racing Â· Electric ATV](projects/vjti-racing) | Vehicle systems Â· Mechanical integration | Student team project Â· 2022â€“2024 |
 | [Gesture tracking & two-finger prototype](projects/gesture-fingers) | Vision Â· Tendon mechanisms | Prototype Â· Integration unfinished |
 | [UR10e kinematics in MuJoCo](projects/ur10e-kinematics) | Robot mathematics Â· Coursework | Coursework implementation |
+| [Wall-E · Balance & line following](projects/walle-balance-line) | Embedded control · Robot study | CV-documented project |
+| [Adaptive recumbent bicycle](projects/adaptive-recumbent-bicycle) | Accessible design · Structural study | Undergraduate design study |
+| [Sugarcane juicer mechanism](projects/sugarcane-juicer) | Machine design · Power transmission | Undergraduate design study |
+| [3D-printing surface-defect detection](projects/printing-defect-detection) | Manufacturing intelligence · Research | Research / prototype development |
+| [EcoSteps · Carbon-footprint UX](projects/ecosteps) | Product prototyping · Sustainability UX | Award-winning UI/UX prototype |
+| [Circuit-breaker digital twins & ROMs](projects/circuit-breaker-rom) | CAE · Reduced-order modeling | Schneider Electric internship |
 
 ## How to read this collection
 
@@ -32,3 +38,5 @@ The navigation comparison is from preserved server evidence; synthetic sensor re
 ## Verification
 
 Source integrity and syntax checks are recorded separately from execution. A successful syntax check does not establish that hardware, MATLAB toolboxes, simulator resources or course services are available. See each project before attempting a run.
+
+Six additional projects are summarized from the historical CV. Their directories clearly state when original code, CAD or benchmark records have not been recovered. They are not runnable source packages.

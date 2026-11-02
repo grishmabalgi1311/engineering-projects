@@ -1,8 +1,8 @@
-# 360Â° rotating drilling-machine assembly
+# 360° Rotating Drilling Machine
 
 A fabricated articulated drilling-machine assembly built from a wooden base, metal plates, arms and a welded tool holder.
 
-**Tools:** Cutting / Drilling / Grinding / Welding / Mechanical assembly  
+**Tools:** Cutting / Drilling / Grinding / Welding / Mechanical assembly
 **Status:** Undergraduate team project
 
 ## Contribution and documented behavior
