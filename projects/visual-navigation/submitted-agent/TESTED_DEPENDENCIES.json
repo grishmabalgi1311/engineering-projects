@@ -1,0 +1,15 @@
+{
+  "python": "3.12.3",
+  "packages": {
+    "vis-nav-sdk": "0.7.5",
+    "vis-nav-sim": "0.1.3",
+    "numpy": "2.5.2",
+    "opencv-python-headless": "5.0.0.93",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.6.0",
+    "torch": "2.14.0",
+    "transformers": "5.19.0",
+    "pillow": "12.3.0"
+  }
+}

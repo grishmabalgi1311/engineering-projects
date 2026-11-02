@@ -1,0 +1,20 @@
+[project]
+name = "midterm-visual-navigation-7of10"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = [
+  "vis-nav-sdk[viewer]>=0.7.0", "numpy>=1.24", "opencv-python-headless>=4.8",
+  "scikit-learn>=1.3", "scipy>=1.10", "threadpoolctl>=3", "torch>=2.4",
+  "transformers>=5.19.0", "pillow>=12.3.0"
+]
+[tool.uv]
+package = false
+[[tool.uv.index]]
+name = "vis-nav"
+url = "https://visual-navigation-challenge.ai4ce.dev/sdk/simple/"
+explicit = true
+[tool.uv.sources]
+vis-nav-sdk = { index = "vis-nav" }
+vis-nav-sim = { index = "vis-nav" }
+[dependency-groups]
+local = ["vis-nav-sim>=0.1.0"]

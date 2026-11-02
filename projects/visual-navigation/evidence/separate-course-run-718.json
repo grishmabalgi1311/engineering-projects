@@ -1,0 +1,31 @@
+{
+  "goal_tier": "perfect",
+  "nav_steps": 718,
+  "spl": 1.0,
+  "points": 10.0,
+  "max_points": 10.0,
+  "awarded": {
+    "Distance": 3.0,
+    "Heading": 3.0,
+    "SPL": 4.0
+  },
+  "job_id": "be6e26df-5271-44f6-8def-20cc265becd9",
+  "session_id": "2707ef6e4e12",
+  "arrival": {
+    "distance_m": 0.03131856853337958,
+    "heading_deg": 0.527752991624188
+  },
+  "think": {
+    "total_ms": 31636.894,
+    "mean_ms": 66.464,
+    "p95_ms": 93.005,
+    "max_ms": 817.578,
+    "measured_total_ms": 32542.512,
+    "measured_mean_ms": 68.367,
+    "measured_p95_ms": 95.541,
+    "server_ms": 938.223,
+    "steps_measured": 476
+  },
+  "attempts_used": 33,
+  "attempts_allowed": null
+}

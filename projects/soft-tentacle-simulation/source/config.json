@@ -1,0 +1,42 @@
+{
+  "tank_length_m": 0.55,
+  "tank_width_m": 0.32,
+  "water_depth_m": 0.035,
+  "surface_z_m": 0.0,
+  "grid_nx": 44,
+  "grid_ny": 26,
+  "dt_s": 0.001,
+  "control_dt_s": 0.04,
+  "water_density_kg_m3": 1000.0,
+  "wave_damping_per_s": 0.45,
+  "arm_mass_kg": 0.05,
+  "arm_cd_lateral": 1.0,
+  "arm_cd_axial": 0.01,
+  "arm_z_m": 0.0,
+  "arm_bases_xy_m": [
+    [
+      -0.235,
+      0
+    ]
+  ],
+  "arm_yaws_deg": [
+    0
+  ],
+  "ball_radius_m": 0.02,
+  "ball_mass_kg": 0.0027,
+  "ball_cd": 0.47,
+  "ball_vertical_damping_Ns_m": 0.03,
+  "max_tension_N": 5.0,
+  "target_xy_m": [
+    0.18,
+    0.06
+  ],
+  "goal_radius_m": 0.025,
+  "episode_s": 20.0,
+  "tank_height_m": 0.09,
+  "ball_start_xy_m": [
+    0.055,
+    0.035
+  ],
+  "preserve_original_arm_mass": true
+}

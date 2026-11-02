@@ -1,0 +1,20 @@
+{
+  "scope": "Saved midterm run comparison; not a cross-environment success rate or a causal ablation.",
+  "baseline": {
+    "ticks": 2451,
+    "spl": 0.358221134,
+    "points": 6,
+    "distance_m": 0.015667156,
+    "heading_deg": 0.359163
+  },
+  "submitted": {
+    "ticks": 1418,
+    "spl": 0.6191819464033851,
+    "points": 7,
+    "distance_m": 0.03570088442615988,
+    "heading_deg": 0.09445651306161722
+  },
+  "ticks_saved": 1033,
+  "tick_reduction_percent": 42.146062831497346,
+  "provenance": "Preserved Team 3 engineering-methods speaker notes, 2026-10-30; source code is the preserved 7/10 submission."
+}

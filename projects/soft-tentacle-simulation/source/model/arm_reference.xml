@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="TPU_tentacle_underwater_actuated">
+  <compiler angle="degree" meshdir="../geometry/meshes" />
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast">
+    <flag contact="enable" frictionloss="enable" />
+  </option>
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0.1 0.1 0.1" />
+    <rgba haze="0.15 0.25 0.35 1" />
+    <quality shadowsize="2048" />
+  </visual>
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" width="512" height="512" rgb1="0.18 0.24 0.30" rgb2="0.27 0.34 0.41" />
+    <material name="gridmat" texture="grid" texrepeat="5 5" reflectance="0.15" />
+    <material name="tpu_mat" rgba="0.95 0.82 0.28 1" specular="0.2" shininess="0.3" />
+    <mesh name="seg01" file="seg01.obj" />
+    <mesh name="seg02" file="seg02.obj" />
+    <mesh name="seg03" file="seg03.obj" />
+    <mesh name="seg04" file="seg04.obj" />
+    <mesh name="seg05" file="seg05.obj" />
+    <mesh name="seg06" file="seg06.obj" />
+    <mesh name="seg07" file="seg07.obj" />
+    <mesh name="seg08" file="seg08.obj" />
+    <mesh name="seg09" file="seg09.obj" />
+    <mesh name="seg10" file="seg10.obj" />
+    <mesh name="seg11" file="seg11.obj" />
+    <mesh name="seg12" file="seg12.obj" />
+    <mesh name="seg13" file="seg13.obj" />
+    <mesh name="seg14" file="seg14.obj" />
+    <mesh name="seg15" file="seg15.obj" />
+    <mesh name="seg16" file="seg16.obj" />
+    <mesh name="seg17" file="seg17.obj" />
+    <mesh name="seg18" file="seg18.obj" />
+  </asset>
+  <default>
+    <default class="seg_geom">
+      <geom type="mesh" material="tpu_mat" contype="0" conaffinity="0" friction="0.5 0.005 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    </default>
+    <default class="seg_joint">
+      <joint type="hinge" axis="0 0 1" limited="true" range="-75.0 75.0" stiffness="0.15" damping="0.2" armature="0.002" />
+    </default>
+    <default class="ten_site">
+      <site size="0.0008" rgba="0.9 0.15 0.1 0.9" />
+    </default>
+  </default>
+  <worldbody>
+    <light pos="0.15 0 0.4" dir="-0.3 0 -1" directional="true" diffuse="0.8 0.8 0.8" specular="0.3 0.3 0.3" />
+    <geom name="floor" type="plane" size="0.6 0.6 0.1" pos="0 0 -0.30" material="gridmat" contype="0" conaffinity="0" />
+    <geom name="stand" type="cylinder" size="0.008 0.15" pos="0 0 -0.15" rgba="0.35 0.35 0.35 1" contype="0" conaffinity="0" />
+    <body name="seg1" pos="0.000000 0 0">
+      <geom name="g1" class="seg_geom" mesh="seg01" mass="0.004091" />
+      <site name="t1_s1" class="ten_site" pos="0  0.021191 0" />
+      <site name="t2_s1" class="ten_site" pos="0 -0.021191 0" />
+      <body name="seg2" pos="0.015000 0 0">
+        <joint name="j2" class="seg_joint" pos="0 0 0" />
+        <geom name="g2" class="seg_geom" mesh="seg02" mass="0.011471" />
+        <site name="t1_s2" class="ten_site" pos="0  0.019336 0" />
+        <site name="t2_s2" class="ten_site" pos="0 -0.019336 0" />
+        <body name="seg3" pos="0.025500 0 0">
+          <joint name="j3" class="seg_joint" pos="0 0 0" />
+          <geom name="g3" class="seg_geom" mesh="seg03" mass="0.008398" />
+          <site name="t1_s3" class="ten_site" pos="0  0.017644 0" />
+          <site name="t2_s3" class="ten_site" pos="0 -0.017644 0" />
+          <body name="seg4" pos="0.023500 0 0">
+            <joint name="j4" class="seg_joint" pos="0 0 0" />
+            <geom name="g4" class="seg_geom" mesh="seg04" mass="0.006527" />
+            <site name="t1_s4" class="ten_site" pos="0  0.016100 0" />
+            <site name="t2_s4" class="ten_site" pos="0 -0.016100 0" />
+            <body name="seg5" pos="0.021000 0 0">
+              <joint name="j5" class="seg_joint" pos="0 0 0" />
+              <geom name="g5" class="seg_geom" mesh="seg05" mass="0.005014" />
+              <site name="t1_s5" class="ten_site" pos="0  0.014800 0" />
+              <site name="t2_s5" class="ten_site" pos="0 -0.014800 0" />
+              <body name="seg6" pos="0.019500 0 0">
+                <joint name="j6" class="seg_joint" pos="0 0 0" />
+                <geom name="g6" class="seg_geom" mesh="seg06" mass="0.003681" />
+                <site name="t1_s6" class="ten_site" pos="0  0.013559 0" />
+                <site name="t2_s6" class="ten_site" pos="0 -0.013559 0" />
+                <body name="seg7" pos="0.017500 0 0">
+                  <joint name="j7" class="seg_joint" pos="0 0 0" />
+                  <geom name="g7" class="seg_geom" mesh="seg07" mass="0.002864" />
+                  <site name="t1_s7" class="ten_site" pos="0  0.011924 0" />
+                  <site name="t2_s7" class="ten_site" pos="0 -0.011924 0" />
+                  <body name="seg8" pos="0.016000 0 0">
+                    <joint name="j8" class="seg_joint" pos="0 0 0" />
+                    <geom name="g8" class="seg_geom" mesh="seg08" mass="0.002075" />
+                    <site name="t1_s8" class="ten_site" pos="0  0.010754 0" />
+                    <site name="t2_s8" class="ten_site" pos="0 -0.010754 0" />
+                    <body name="seg9" pos="0.015000 0 0">
+                      <joint name="j9" class="seg_joint" pos="0 0 0" />
+                      <geom name="g9" class="seg_geom" mesh="seg09" mass="0.001456" />
+                      <site name="t1_s9" class="ten_site" pos="0  0.009841 0" />
+                      <site name="t2_s9" class="ten_site" pos="0 -0.009841 0" />
+                      <body name="seg10" pos="0.012500 0 0">
+                        <joint name="j10" class="seg_joint" pos="0 0 0" />
+                        <geom name="g10" class="seg_geom" mesh="seg10" mass="0.001274" />
+                        <site name="t1_s10" class="ten_site" pos="0  0.008801 0" />
+                        <site name="t2_s10" class="ten_site" pos="0 -0.008801 0" />
+                        <body name="seg11" pos="0.013000 0 0">
+                          <joint name="j11" class="seg_joint" pos="0 0 0" />
+                          <geom name="g11" class="seg_geom" mesh="seg11" mass="0.000930" />
+                          <site name="t1_s11" class="ten_site" pos="0  0.007726 0" />
+                          <site name="t2_s11" class="ten_site" pos="0 -0.007726 0" />
+                          <body name="seg12" pos="0.011000 0 0">
+                            <joint name="j12" class="seg_joint" pos="0 0 0" />
+                            <geom name="g12" class="seg_geom" mesh="seg12" mass="0.000662" />
+                            <site name="t1_s12" class="ten_site" pos="0  0.006804 0" />
+                            <site name="t2_s12" class="ten_site" pos="0 -0.006804 0" />
+                            <body name="seg13" pos="0.010500 0 0">
+                              <joint name="j13" class="seg_joint" pos="0 0 0" />
+                              <geom name="g13" class="seg_geom" mesh="seg13" mass="0.000457" />
+                              <site name="t1_s13" class="ten_site" pos="0  0.006006 0" />
+                              <site name="t2_s13" class="ten_site" pos="0 -0.006006 0" />
+                              <body name="seg14" pos="0.009000 0 0">
+                                <joint name="j14" class="seg_joint" pos="0 0 0" />
+                                <geom name="g14" class="seg_geom" mesh="seg14" mass="0.000350" />
+                                <site name="t1_s14" class="ten_site" pos="0  0.005021 0" />
+                                <site name="t2_s14" class="ten_site" pos="0 -0.005021 0" />
+                                <body name="seg15" pos="0.008500 0 0">
+                                  <joint name="j15" class="seg_joint" pos="0 0 0" />
+                                  <geom name="g15" class="seg_geom" mesh="seg15" mass="0.000261" />
+                                  <site name="t1_s15" class="ten_site" pos="0  0.004522 0" />
+                                  <site name="t2_s15" class="ten_site" pos="0 -0.004522 0" />
+                                  <body name="seg16" pos="0.008000 0 0">
+                                    <joint name="j16" class="seg_joint" pos="0 0 0" />
+                                    <geom name="g16" class="seg_geom" mesh="seg16" mass="0.000172" />
+                                    <site name="t1_s16" class="ten_site" pos="0  0.004089 0" />
+                                    <site name="t2_s16" class="ten_site" pos="0 -0.004089 0" />
+                                    <body name="seg17" pos="0.007000 0 0">
+                                      <joint name="j17" class="seg_joint" pos="0 0 0" />
+                                      <geom name="g17" class="seg_geom" mesh="seg17" mass="0.000132" />
+                                      <site name="t1_s17" class="ten_site" pos="0  0.003359 0" />
+                                      <site name="t2_s17" class="ten_site" pos="0 -0.003359 0" />
+                                      <body name="seg18" pos="0.006500 0 0">
+                                        <joint name="j18" class="seg_joint" pos="0 0 0" />
+                                        <geom name="g18" class="seg_geom" mesh="seg18" mass="0.000184" />
+                                        <site name="t1_s18" class="ten_site" pos="0  0.002852 0" />
+                                        <site name="t2_s18" class="ten_site" pos="0 -0.002852 0" />
+                                      </body>
+                                    </body>
+                                  </body>
+                                </body>
+                              </body>
+                            </body>
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <contact>
+    <pair geom1="g1" geom2="g2" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g2" geom2="g3" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g3" geom2="g4" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g4" geom2="g5" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g5" geom2="g6" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g6" geom2="g7" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g7" geom2="g8" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g8" geom2="g9" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g9" geom2="g10" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g10" geom2="g11" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g11" geom2="g12" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g12" geom2="g13" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g13" geom2="g14" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g14" geom2="g15" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g15" geom2="g16" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g16" geom2="g17" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+    <pair geom1="g17" geom2="g18" friction="0.5 0.5 0.005 0.0001 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001" />
+  </contact>
+  <tendon>
+    <spatial name="cable1" stiffness="0" damping="0" width="0.0003" rgba="0.85 0.15 0.05 1">
+      <site site="t1_s1" />
+      <site site="t1_s2" />
+      <site site="t1_s3" />
+      <site site="t1_s4" />
+      <site site="t1_s5" />
+      <site site="t1_s6" />
+      <site site="t1_s7" />
+      <site site="t1_s8" />
+      <site site="t1_s9" />
+      <site site="t1_s10" />
+      <site site="t1_s11" />
+      <site site="t1_s12" />
+      <site site="t1_s13" />
+      <site site="t1_s14" />
+      <site site="t1_s15" />
+      <site site="t1_s16" />
+      <site site="t1_s17" />
+      <site site="t1_s18" />
+    </spatial>
+    <spatial name="cable2" stiffness="0" damping="0" width="0.0003" rgba="0.85 0.15 0.05 1">
+      <site site="t2_s1" />
+      <site site="t2_s2" />
+      <site site="t2_s3" />
+      <site site="t2_s4" />
+      <site site="t2_s5" />
+      <site site="t2_s6" />
+      <site site="t2_s7" />
+      <site site="t2_s8" />
+      <site site="t2_s9" />
+      <site site="t2_s10" />
+      <site site="t2_s11" />
+      <site site="t2_s12" />
+      <site site="t2_s13" />
+      <site site="t2_s14" />
+      <site site="t2_s15" />
+      <site site="t2_s16" />
+      <site site="t2_s17" />
+      <site site="t2_s18" />
+    </spatial>
+  </tendon>
+  <actuator>
+    <motor name="pull1" tendon="cable1" gear="-1" ctrllimited="true" ctrlrange="0 5.0" forcelimited="true" forcerange="0 5.0" />
+    <motor name="pull2" tendon="cable2" gear="-1" ctrllimited="true" ctrlrange="0 5.0" forcelimited="true" forcerange="0 5.0" />
+  </actuator>
+</mujoco>
